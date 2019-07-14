@@ -87,7 +87,7 @@ void draw(void) {
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   glLoadIdentity();
 
-  char score_str[5];
+  char score_str[20];
   
   sprintf(score_str, "%d : %d", score_left, score_right);
   drawText(SCR_WIDTH / 2 - 10, SCR_HEIGHT - 15, score_str); 
